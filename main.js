@@ -1026,5 +1026,6 @@ function main() {
     exportExtra(commander.outdir, inheritanceTable);
     console.log("Done.");
 }
+exports.main = main;
 if (require.main === module)
     main();

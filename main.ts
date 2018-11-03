@@ -1292,7 +1292,7 @@ function finaliseInheritance(inheritanceTable) {
     }
 }
 
-function main() {
+export function main() {
     commander
         .option("-g --gir-directory [directory]", "GIR directory",
             "/usr/share/gir-1.0")
